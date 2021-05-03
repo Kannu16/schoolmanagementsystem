@@ -1,0 +1,137 @@
+.container-fluid {
+    width: 90%;
+  }
+  .my-implement {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .my-brand {
+    font-size: 2rem;
+    font-family: "Carme", sans-serif;
+    font-weight: bold;
+  }
+  .my-image {
+    width: 100%;
+  }
+  .img-content {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #fff;
+  }
+  .my-text {
+    font-size: 3rem;
+  }
+  .contact-form-control {
+    border-color: #efefef;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: groove;
+    border-radius: 0%;
+  }
+  .contact-form-control:focus{
+    
+    border-bottom: groove;
+    border-radius: 0%;
+  }
+  .my-card {
+    width: 20rem;
+    height: 10%;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .media-text {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 90px;
+  }
+  .media-container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .media-text:hover {
+    color: yellow;
+    transition: 1s;
+  }
+  .contact-container {
+    width: 80%;
+    background-color: #efefef;
+    border-radius: 1.25rem !important;
+  }
+  .contact {
+    font-size: 1.4rem;
+  }
+  .sign-up:hover {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  .list-unstyled a {
+    text-decoration: none;
+  }
+  .list-unstyled a:hover {
+    color: blue;
+  }
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+  .price-icon {
+    display: block;
+  }
+  .btn:hover {
+    background-color: black;
+    transition: 1s;
+  }
+  .page-footer {
+    background-color: black;
+  }
+  .my-card:hover{
+      box-shadow: 11px 11px 19px -5px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 11px 11px 19px -5px rgba(0,0,0,0.56);
+    -moz-box-shadow: 11px 11px 19px -5px rgba(0,0,0,0.56);;
+    transition: 0.6s;
+    border: none;
+  }
+  .education-quote{
+    position: absolute;
+    text-align: end;
+    top: 30%;
+    right: 15%;
+    font-family: serif;
+    font-size: 3rem;
+    color: black;
+    /* font-weight: bold; */
+  }
+  .contact-name{
+    color: yellow;
+  }
+  
+
+  
+  @media screen and (max-width: 1205px) {
+    .img-content {
+      display: none;
+    }
+    .media-text {
+      display: block;
+      padding: 10px;
+    }
+    .education-quote{
+      font-size: 1.2rem;
+      right: 3%;
+    }
+  }
+  
